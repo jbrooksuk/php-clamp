@@ -15,3 +15,7 @@ test('does not clamp numbers within range', function () {
 test('clamps floating numbers', function () {
     assertEquals(4.5, clamp(4.5, 1, 10));
 });
+
+test('clamps negative numbers', function () {
+    assertEquals(1, clamp(-10, 1, 5));
+});
