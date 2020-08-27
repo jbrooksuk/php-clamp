@@ -11,7 +11,8 @@
     ],
     "require-dev": {
         "phpunit/phpunit": "^9.0",
-        "pestphp/pest": "^0.2.4"
+        "pestphp/pest": "^0.3.0",
+        "pestphp/pest-plugin-global-assertions": "^0.3.0"
     },
     "autoload": {
         "files": [
